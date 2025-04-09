@@ -1,6 +1,5 @@
 import streamlit as st
-from llama_index import GPTVectorStoreIndex, SimpleDirectoryReader
-
+from llama_index.core import GPTVectorStoreIndex, SimpleDirectoryReader
 st.set_page_config(page_title="Ram Ji Assistant", layout="centered")
 st.title("Ram Ji Assistant")
 
